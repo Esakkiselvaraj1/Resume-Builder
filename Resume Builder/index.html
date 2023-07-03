@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your Details :</h1>
+      <form class="Form" id="Form">
+        <input type="text" id="name" placeholder="Enter Your Name" />
+        <br /><br />
+        <input type="text" id="Profile" placeholder="Enter Your Job Profile" />
+        <br /><br />
+        <textarea
+          id="experience"
+          cols="30"
+          rows="7"
+          placeholder="Enter Your Experience"
+        ></textarea
+        ><br /><br />
+        <textarea
+          id="projects"
+          cols="30"
+          rows="7"
+          placeholder="Enter Your Projects"
+        ></textarea
+        ><br /><br />
+        <textarea
+          id="edu"
+          cols="30"
+          rows="7"
+          placeholder="Enter Your Qualifications"
+        ></textarea
+        ><br /><br />
+        <textarea
+          id="skill"
+          cols="30"
+          rows="7"
+          placeholder="Enter Your Skills"
+        ></textarea
+        ><br /><br />
+        <input
+          type="tel"
+          id="contact"
+          placeholder="Enter Your Contact Number"
+        /><br /><br />
+        <input type="email" id="email" placeholder="Enter your mail Id" />
+        <br /><br />
+        <button type="button" class="form-btn">
+          <a href="./resume.html">Preview</a>
+        </button>
+        <button type="button" onclick="Delete()">Delete</button>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-sky-blue: #8ecae6ff;
+  --clr-blue-green: #219ebcff;
+  --clr-prussian-blue: #023047ff;
+  --clr-selective-yellow: #ffb703ff;
+  --clr-ut-orange: #fb8500ff;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-noto-sans: "Noto Sans", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --max-width: 1170px;
+  --fixed-width: 450px;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-roboto);
+  overflow-x: hidden;
+}
+
+.resume-container {
+  max-width: 50rem;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.resume-header {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  gap: 1.3rem;
+  border: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.resume-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #000;
+}
+
+.resume-name {
+  font-size: 2rem;
+}
+
+.resume-subtitle {
+  font-size: 1.25rem;
+}
+
+.resume-data1,
+.resume-data2 {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0.5rem auto;
+}
+
+.objective {
+  width: 100%;
+}
+
+.data {
+  width: 80%;
+  min-height: 1.5rem;
+  word-wrap: break-word;
+  padding: 0.5rem;
+}
+
+.toggleButton {
+  width: 45%;
+  padding: 1.5rem;
+  background-color: green;
+  margin: 1.75rem;
+}
+
+.toggleButton:hover {
+  background-color: #179e17;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}

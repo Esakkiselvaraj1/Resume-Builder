@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title> HTML-CSS-JavaScript Projects</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="resume.css" />
+  </head>
+  <body>
+    <div class="resume-container">
+      <div class="resume-header">
+        <h2 class="resume-name" id="name"></h2>
+        <h6 class="resume-subtitle" id="subtitle"></h6>
+      </div>
+      <div class="resume-content">
+        <div class="resume-data1">
+          <div class="work-experience">
+            <h3>Experience : </h3>
+            <div class="data" id="workData"></div>
+          </div>
+          <div class="projects">
+            <h3>Projects : </h3>
+            <div class="data" id="projectsData"></div>
+          </div>
+          <div class="academic-details">
+            <h3>Education Details :</h3>
+            <div class="data" id="academicDetailsData"></div>
+          </div>
+          <div class="skills">
+            <h3>Skills :</h3>
+            <div class="data" id="skillsData"></div>
+          </div>
+        <div class="resume-data2">
+          <h2>Adress:</h2>
+          <div class="contact">
+            <h3>Contact Number :</h3>
+            <div class="data" id="contactData"></div>
+          </div>
+          <div class="email">
+            <h3>Email ID :</h3>
+            <div class="data" id="emailData"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="button" class="toggleButton">
+      <a href="./index.html" >Edit</a>
+    </button>
+    <button class="button" onclick="print()">Print</button>
+    <script src="./scripts/resume.js" ></script>
+  </body>
+</html>
